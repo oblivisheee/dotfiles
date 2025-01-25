@@ -23,7 +23,7 @@ eval $(thefuck --alias)
 # Aliases
 
 alias ls="lsd"
-alias bzlinit="sh /Users/oblivisheee/.bash_scripts/bzlinit.bash"
+alias bzlinit="touch WORKSPACE.bazel MODULE.bazel .bazelrc BUILD.bazel"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
